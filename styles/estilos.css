@@ -1,72 +1,103 @@
-
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-    background-color: #eee;
-    margin: 40px;
+h1, h2, h3, h4, nav, footer {
+    font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
 }
-
+body {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    background-color: rgb(33, 54, 66);
+}
+main {
+    background-color: white;
+    margin-top: 1em;
+    margin-right: 4em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    padding: 0.5em;
+}
 h1 {
-    font-size: 36px;
-    color: #003366;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 28px;
-    color: #004080;
+    font-size: 0.75rem;
 }
 
 h3 {
-    font-size: 22px;
-    color: #0059b3;
+    font-size: 1em;
+    border-bottom: solid 1pt rgb(153, 153, 153);
+    margin: 0 0 0.5em 0;
 }
-
 p {
-    font-size: 18px;
-    margin-bottom: 10px;
-    letter-spacing: 0.5px;
+    font-size: 1rem;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+    letter-spacing: 1px;
 }
-
 nav {
-    background-color: #333;
-    padding: 10px;
+    font-size: 1.125rem;
+    background-color: rgb(61, 98, 113);
+    padding: 0.25em;
 }
-
-nav ul {
-    list-style-type: square;
-    display: block;
-    margin: 0;
-    padding-left: 20px;
-}
-
 nav ul li {
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 5px;
+    list-style: none;
+    display: inline;
+}
+nav a {
+    padding: 0.25em;
+}
+a:link {
+    font-weight: bold;
+    color: rgb(71, 179, 215);
 }
 
-section {
-    background-color: #fff;
-    padding: 10px;
-    margin-top: 20px;
+a:visited {
+    color: rgb(187, 120, 255);
 }
 
-figure {
-    margin: 20px 0;
-    text-align: center;
+a:hover {
+    background-color: rgb(255, 255, 204);
 }
-
-figcaption {
+.titulo {
+    font-size: 0.875rem;
+    color: #728896;
     font-style: italic;
-    font-size: 14px;
-    color: #666;
+}
+figure {
+    margin: 0.5em 0em 0.5em 0em;
+}
+figure img {
+    padding: 0.25em;
+    border: solid 1.5px #999999;
+}
+figure div {
+    margin: 0.25em 0em 2em 0em;
+    padding: 0.5em;
+    width: 500px;
+    border: solid 1.5px #999999;
+    border-radius: 4px;
+    background: linear-gradient(gray, white);
+}
+figure div p {
+    font-size: 70%;
+    margin: 0;
 }
 
-footer {
-    background-color: #333;
+figure div img {
+    padding: 0;
+    border: 0;
+}
+#revisiones {
+    margin-top: 1em;
+}
+
+#revisiones div {
+    border-bottom: dashed 1pt #999999;
+    margin-bottom: 1.25em;
+}
+header, footer {
     color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
+    background-color: #3D6271;
+    margin: 0em 4em 0.5em 4em;
 }
